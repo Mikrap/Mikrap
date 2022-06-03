@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.site {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(248, 206, 133), rgb(240, 193, 105));
+
+}
+
+.table{
+    width: 1400px;
+    height: 800px;
+    background: rgb(222, 178, 78);
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        box-shadow: 0 17px 17px -3px rgba(0, 1, 0, 0.616);
+        border-radius: 30px;
+}
+
+.img_ghost{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 3px 3px -3px rgba(0, 1, 0, 0.329);
+    float: 2000px left;
+    position: absolute; 
+    top: 160px; 
+    right: 185px;
+}
+
+.xcompany{
+    margin: 0;
+    position: absolute; 
+    top: 40px; 
+    left: 135px;
+    cursor: pointer;
+}
+
+
+
+.text_1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+   font-size: 25;
+   position: absolute; 
+    top: 60px; 
+    right: 345px;
+    cursor: pointer;
+}
+
+
+
+
+.text_2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+   font-size: 25;
+   position: absolute; 
+    top: 60px; 
+    right: 235px;
+    cursor: pointer;
+}
+
+
+
+
+.text_3{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+   font-size: 25;
+   position: absolute; 
+    top: 60px; 
+    right: 125px;
+    cursor: pointer;
+}
+
+
+
+
+
+.mail_number{
+    position:absolute;
+    bottom: 60px;
+    left:550px;
+    cursor: pointer;
+}
+
+
+
+
+.error404{
+    position:absolute;
+    top: 190px;
+    left:225px;
+}
+
+
+
+.hey{
+    position:absolute;
+    top: 240px;
+    left:235px;
+    font-size: 42px;
+}
+
+
+
+
+.wecant{
+    position:absolute;
+    top: 320px;
+    left:235px;
+    opacity:0,25;
+}
+
+
+
+.go_home{
+    position:absolute;
+    top: 400px;
+    left:235px;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 30%;
+    cursor: pointer;
+}
